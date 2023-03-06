@@ -63,6 +63,22 @@ a:active {
   box-shadow: inset 0 0 24px 4px rgba(27, 115, 192, 0.542);
   transition: all 0.3ms ease-in-out;
 }
+
+.tag {
+  display: block;
+  margin-top: 16px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background-color: rgb(27, 115, 192);
+  width: fit-content;
+  align-items: flex-end;
+  margin: 16px 8px;
+  transition: all 0.3ms ease-in;
+}
 .projects div img {
   width: 100%;
   overflow: hidden;

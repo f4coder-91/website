@@ -8,7 +8,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  /* background-color: lightgray; */
+  background-color: #f7f7f7;
 }
 
 .container {
@@ -73,8 +73,8 @@ a:active {
   transform: translateY(-14px);
 }
 .main {
-  /* background-color: #74c0fc; */
-  background-color: #bddcf8;
+  background-color: #74c1fc5b;
+  /* background-color: #f7f7f7; */
 }
 
 .grid {
@@ -93,7 +93,7 @@ a:active {
   color: #333;
   font-weight: 700;
 }
-span {
+.description span {
   color: #0a2a45;
   font-size: 22px;
 }
@@ -106,8 +106,37 @@ span {
   color: #333;
 }
 p {
-  width: 67px;
+  width: 670px;
   font-size: 20px;
   margin-top: 40px;
   color: #333;
+}
+
+.skills {
+  margin-top: 48px;
+}
+
+.skills-title {
+  font-size: 44px;
+  font-weight: 600;
+  color: #0a2a45;
+  margin-bottom: 14px;
+}
+.skills--subtitle {
+  font-size: 36px;
+  font-weight: lighter;
+  border-bottom: 2px solid #333;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  background-color: #f7f7f7;
+  width: 400px;
+  margin-top: 12px;
+  box-shadow: 0 34px 48px rgb(0, 0, 0, 0.06);
+  padding: 12px 36px;
+  border: 1px solid #0a2a45;
 }
